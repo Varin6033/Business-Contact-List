@@ -1,0 +1,19 @@
+Bill gates
+DATE OF BIRTH	OCTOBER 28, 1955
+PLACE OF BIRTH	SEATTLE
+PROFESSION	ENTREPRENEUR, PROGRAMMER, BUSINESSPERSON, INVESTOR, SOFTWARE ARCHITECT
+
+Carlos Slim
+Date of birth   JANUARY 28, 1940
+place of birth	Mexico city
+profession 	ENTREPRENEUR, BUSINESSPERSON, FINANCIER
+
+Warren Buffett
+Date of birth   August 30,1930
+place of birth 	Omaha
+Profession 	investor,enterprenuer,businessperson
+
+mukesh ambani
+Date of birth	April 19,1957
+Place of birth	India
+Profession 	Manager director and largest shareholder

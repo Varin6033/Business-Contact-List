@@ -1,0 +1,88 @@
+<!----File name:About_me.html--->
+<!----Author's name:Varin Upadhyay--->
+<!----http://localhost/Project/About-me.html ---->
+<!----File Description: This is the login form.In which, user has to enter his/her username and password for accessing the database--->
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="css/Style.css">
+<script type="text/javascript">
+
+var image1 = new Image()
+image1.src ="image/varin2.jpg";
+var image2 = new Image()
+image2.src ="image/Varin.jpg";
+var image3 = new Image()
+image3.src ="image/varin1.jpg";
+
+</script>
+	<title>My First Web page
+	</title>
+<body>
+	<div id="container1">
+		<!----nav---->
+			<nav>
+			<ul >
+				<li><a href="index.html"> Home Page</a>
+				<li><a href="About-me.html">About Me</a>
+				<li><a href="Project-page.html">Projects</a></li>
+				<li><a href="Service-page.html">Services</a></li>
+				<li><a href="https://github.com/Varin6033/Business-Contact-List">Git Hub</a></li>
+				<li><a href="Contact-me.html">Contact Me</a></li>
+				<li><a href="Business_Contacts_Link.php">Business Contacts</a></li>
+			</ul> 
+			</nav>	
+		
+		<!----header---->
+		<header>
+		<image id="logo" src="image/varin_logo.png"></img>
+		</header>
+		
+		<div class="container">
+		
+		<!-----aside---->
+		<aside>
+			<p></p><br/><br/>
+		 	<h3>About Me,</h3>
+			<hr>
+			<p>My name is Varin Upadhyay.I am studying in Centennial College(Progress Campus).My programme is software Engineering Technology.</p>		
+			<p>If u want to see my previous qualification in India then.....<a href="resume.html">Click Here</a></p>
+		</aside>
+		
+		<section id="content">
+			<div id="banner">
+			<img id="sunset" name="slide" src="image/varin2.jpg"></img>
+			<script type="text/javascript">
+		
+			var step = 1;
+			function slideit()
+			{
+				document.images.slide.src = eval("image"+step+".src");
+				if(step<3)
+				step++;
+				else
+				step=1;
+				setTimeout("slideit()",2500);
+			}
+			slideit()
+			</script>
+			</div>
+		</section>
+		</div>
+	</div>
+	
+		<!----footer---->
+		<footer>
+		
+		<div class="img">
+			<a target="_blank" href="https://twitter.com"><img src="image/twitter.png" alt="Klematis"></a>
+			<a target="_blank" href="https://ca.linkedin.com/"><img src="image/linkedin.png" alt="Klematis"></a>
+			<a target="_blank" href="http://www.youtube.com/"><img src="image/youtube.png" alt="Klematis"></a>
+			<a target="_blank" href="https://www.facebook.com/"><img src="image/facebook.png" alt="Klematis"></a>
+		</div>
+	
+		<div id="copyright">Copyright By:Varin Upadhyay</div>
+		</footer>
+	
+</body>
+</html>
+</html>
